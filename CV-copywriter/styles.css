@@ -1,0 +1,241 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("assets/fonts/Montserrat-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("assets/fonts/Montserrat-Bold.ttf");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("assets/fonts/Montserrat-Light.ttf");
+    font-weight: 200;
+    font-style: normal;
+}
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1440px;
+    width: 100%;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 400;
+    background-color: white;
+    color: #252525;
+    margin: 0 auto;
+}
+.menu-item a, .contacts-item a, .link {
+    font-family: "Montserrat";
+    font-style: normal;
+    text-decoration: none;  text-transform: lowercase;
+    color: #252525;
+}
+a:hover{
+    color: #820000;
+}
+.link{
+    text-transform: lowercase;
+}
+ul{
+list-style: none;
+}
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+.header{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-top: 40px;
+    background-color: #820000;
+}
+.header-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    background-color: white;
+    padding: 0 40px;
+}
+.header-hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+    padding: 1% 1%;
+    border-bottom: 2px solid #820000;
+}
+.portrait>img{
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid #820000;
+}
+.main-title{
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 2.5rem;
+    padding: 0 20px 15px 20px;
+}
+.description-title{
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 1,2rem;
+    text-transform: lowercase;
+    padding: 0 20px;
+}
+.header-contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+.header-contacts-item{
+    padding: 0 20px 0 0;
+}
+
+.menu-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+.menu-item{
+    padding: 0 20px 0 10px;
+}
+.section{
+    width: 100%;
+    padding: 20px 40px;
+}
+.section-title{
+    font-weight: 400;
+    padding: 20px 10px 20px 0;
+}
+.section-subtitle{
+    font-weight: 400;
+    padding:  20px 10px 20px 0;
+}
+.content{
+    width: 85%;
+    line-height: 22px;
+}
+.button{
+    width: 200px;
+    padding: 12px 15px;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    box-shadow: none;
+    margin-right: 20px;
+}
+.cta-button{
+        background-color: #820000;
+}
+.cta-button:hover{
+    background-color: #dc0303;
+}
+.enter-button{
+    background-color: #252525;
+}
+.enter-button:hover{
+background-color: #575656;
+}
+.test-button{
+    width: 270px;
+    background-color: #00371a;
+}
+.test-button:hover{
+background-color: #029d14;
+}
+.section-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 10px;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 8px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #252525;
+    color: white;
+}
+.conact-section{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+}
+.contacts-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.copywrite-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.footer a {
+    color: white;
+    cursor: pointer;
+}
+.footer a:hover{
+    color: #dc0303;
+}
+.contacts-item{
+    padding: 0 20px;
+}
+.copywrite-section div {
+    margin: 10px 20px;
+}
+.portfolio-list{
+    justify-content: space-between;
+    width: 80%;
+    text-transform: uppercase;
+    padding: 20px 40px;
+}
+.portfolio-main{
+    padding: 10px 40px;
+}
